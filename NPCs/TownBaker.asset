@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7235cc72a171afc419251d01eb9d488c, type: 3}
+  m_Name: TownBaker
+  m_EditorClassIdentifier: Assembly-CSharp::NPCsSO
+  headSprite: {fileID: 0}
+  overworldSprite: {fileID: 0}
+  characterName: TownBaker
+  characterCoinCount: 200
+  trackedVariables: []
+  ingredientOffers:
+  - ingredient: {fileID: 11400000, guid: bf804106b9c459f4fb6f1847bd2dccd4, type: 2}
+    baseAmount: 3
+  - ingredient: {fileID: 11400000, guid: d8b2c95d1b8dbd14c92659e3fdccedb7, type: 2}
+    baseAmount: 2
+  - ingredient: {fileID: 11400000, guid: f8f91439b80e1c94ea17bf84b4ead8dd, type: 2}
+    baseAmount: 3
+  potionRequests:
+  - potion: {fileID: 11400000, guid: a945aaa7f7112c44aa81f42db442e8d8, type: 2}
+    requestAmount: 1
+  - potion: {fileID: 11400000, guid: 44aa84d14a3db63409aad60343429120, type: 2}
+    requestAmount: 1
+  yearOneGraph: {fileID: 11400000, guid: f207301b745e90e4e8d979cf499f8073, type: 2}
+  nthYearGraph: {fileID: 11400000, guid: b4d17db86e19c824aa2fcf35974480e3, type: 2}
