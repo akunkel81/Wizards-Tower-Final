@@ -1,0 +1,904 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8998185190784645485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -10.862854
+    y: -184.86682
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Sad Father
+    Text: Hmmm, it seems like these are above my price range, what a shame. I hope
+      he can hold on until next year.
+    CharacterSprite: {fileID: 21300000, guid: f74a6be94effd4442a297e74eb0b2121, type: 3}
+  ParentNodes:
+  - {fileID: -1531887873842679203}
+  - {fileID: 1604470056428255785}
+  ChildNode: {fileID: -127178558412626005}
+  _isExternalFunc: 1
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-8071451905670966076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -1890.5999
+    y: 604.60046
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Sad Father
+    Text: "Though, the town hasn\u2019t been doing too great lately, which makes
+      it harder for an entrepreneur like me to really take off."
+    CharacterSprite: {fileID: 21300000, guid: f74a6be94effd4442a297e74eb0b2121, type: 3}
+  ParentNodes:
+  - {fileID: 2513004761387773472}
+  ChildNode: {fileID: 7928659056014060244}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-7999882026656447980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -297.2644
+    y: 242.3334
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Sad Father
+    Text: If it's not too much, then.
+    CharacterSprite: {fileID: 21300000, guid: f74a6be94effd4442a297e74eb0b2121, type: 3}
+  ParentNodes:
+  - {fileID: 4222808496676358380}
+  ChildNode: {fileID: 1604470056428255785}
+  _isExternalFunc: 1
+  _externalFunctionName: CheckAffordSellPotionRequest1
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-7666769196491267573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -1257.8665
+    y: 322.70013
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Sad Father
+    Text: "Not a problem. Can\u2019t seem to find anyone who wants this junk."
+    CharacterSprite: {fileID: 21300000, guid: f74a6be94effd4442a297e74eb0b2121, type: 3}
+  ParentNodes:
+  - {fileID: 5006191576740839021}
+  ChildNode: {fileID: 4973694331897876879}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-6882806406159105309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -2099.399
+    y: 607.0005
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Sad Father
+    Text: And the town has really been booming these days! So hopefully any day now
+      I will land on my feet!
+    CharacterSprite: {fileID: 21300000, guid: f74a6be94effd4442a297e74eb0b2121, type: 3}
+  ParentNodes:
+  - {fileID: 2513004761387773472}
+  ChildNode: {fileID: 7928659056014060244}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-4134853469371818415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4b3c64aaf434ea0df52154c1c7680, type: 3}
+  m_Name: External Function Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.ExternalFunctionNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 536.2002
+    y: 229.00006
+    width: 190
+    height: 80
+  IsDragging: 1
+  IsSelected: 0
+  _functionName: IncreaseCurrentNPCRapport
+  _description: 
+  ParentNodes:
+  - {fileID: 2962575632306342582}
+  - {fileID: 6185298304053698076}
+  ChildNode: {fileID: 828629150454998452}
+--- !u!114 &-3404686045141690925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -297.2652
+    y: 91.933014
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Sad Father
+    Text: If it's not too much, then.
+    CharacterSprite: {fileID: 21300000, guid: f74a6be94effd4442a297e74eb0b2121, type: 3}
+  ParentNodes:
+  - {fileID: 4222808496676358380}
+  ChildNode: {fileID: -1531887873842679203}
+  _isExternalFunc: 1
+  _externalFunctionName: CheckAffordSellPotionRequest0
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-2815906894435404814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30402c10d300488491eb82eed1db9a20, type: 3}
+  m_Name: Modify Variable Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.ModifyVariableNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -2330.0654
+    y: 171.93326
+    width: 210
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: currentNPC
+  _modifyType: 0
+  _boolValue: 0
+  _intValue: 4
+  _floatValue: 0
+  _stringValue: 
+  ParentNodes: []
+  ChildNode: {fileID: -735554937087413529}
+--- !u!114 &-2096541256988295823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -972.4678
+    y: 10.33316
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: 
+    Text: Placeholder in-game transition text
+    CharacterSprite: {fileID: 0}
+  ParentNodes: []
+  ChildNode: {fileID: 0}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-1531887873842679203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38789157e7795244280823d019530045, type: 3}
+  m_Name: Variable Condition Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.VariableConditionNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -36.464417
+    y: 62.33246
+    width: 240
+    height: 160
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: canAfford
+  _conditionType: 0
+  _boolTargetValue: 1
+  _intTargetValue: 1
+  _floatTargetValue: 0
+  _stringTargetValue: 
+  ParentNodes:
+  - {fileID: -3404686045141690925}
+  TrueChildNode: {fileID: 2962575632306342582}
+  FalseChildNode: {fileID: -8998185190784645485}
+--- !u!114 &-735554937087413529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -2007.9999
+    y: 170.69992
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Sad Father
+    Text: Good day to you, might a father request your aid? My child is often sick,
+      so I am looking for something that might lift his health and spirits.
+    CharacterSprite: {fileID: 21300000, guid: f74a6be94effd4442a297e74eb0b2121, type: 3}
+  ParentNodes:
+  - {fileID: -2815906894435404814}
+  ChildNode: {fileID: 2513004761387773472}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-552177151106437464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4b3c64aaf434ea0df52154c1c7680, type: 3}
+  m_Name: External Function Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.ExternalFunctionNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -760.46783
+    y: 379.1334
+    width: 190
+    height: 80
+  IsDragging: 1
+  IsSelected: 0
+  _functionName: EnableSellRestrictions
+  _description: 
+  ParentNodes:
+  - {fileID: 4973694331897876879}
+  ChildNode: {fileID: 4222808496676358380}
+--- !u!114 &-127178558412626005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30402c10d300488491eb82eed1db9a20, type: 3}
+  m_Name: Modify Variable Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.ModifyVariableNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 1111.9326
+    y: 172.33316
+    width: 210
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: currentNPC
+  _modifyType: 0
+  _boolValue: 0
+  _intValue: 0
+  _floatValue: 0
+  _stringValue: 
+  ParentNodes:
+  - {fileID: -8998185190784645485}
+  - {fileID: 8552281239371999322}
+  - {fileID: 828629150454998452}
+  ChildNode: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: Sad Father
+  m_EditorClassIdentifier: 
+  NodesList:
+  - {fileID: -735554937087413529}
+  - {fileID: 7928659056014060244}
+  - {fileID: 4582398493999775140}
+  - {fileID: -7666769196491267573}
+  - {fileID: -2815906894435404814}
+  - {fileID: 5006191576740839021}
+  - {fileID: 693979790325795756}
+  - {fileID: 4973694331897876879}
+  - {fileID: -552177151106437464}
+  - {fileID: 4222808496676358380}
+  - {fileID: -2096541256988295823}
+  - {fileID: -3404686045141690925}
+  - {fileID: -7999882026656447980}
+  - {fileID: -1531887873842679203}
+  - {fileID: 1604470056428255785}
+  - {fileID: -8998185190784645485}
+  - {fileID: 4918686521348694049}
+  - {fileID: 2962575632306342582}
+  - {fileID: 6185298304053698076}
+  - {fileID: -127178558412626005}
+  - {fileID: 2513004761387773472}
+  - {fileID: -6882806406159105309}
+  - {fileID: -8071451905670966076}
+  - {fileID: 7174368441448328741}
+  - {fileID: -4134853469371818415}
+  - {fileID: 8552281239371999322}
+  - {fileID: 828629150454998452}
+  VariablesConfig: {fileID: 11400000, guid: 85f89c3fa9784c44a9a597597aca05dc, type: 2}
+  _localizationTableName: 
+  _characterNamesLocalizationName: 
+  NodeToDrawLineFrom: {fileID: 0}
+  LinePosition: {x: 0, y: 0}
+  IsLocalizationSetUp: 0
+--- !u!114 &693979790325795756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -1250.8665
+    y: 141.53311
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Sad Father
+    Text: Wonderful! Always good to get rid of junk laying around.
+    CharacterSprite: {fileID: 21300000, guid: f74a6be94effd4442a297e74eb0b2121, type: 3}
+  ParentNodes:
+  - {fileID: 5006191576740839021}
+  ChildNode: {fileID: 4973694331897876879}
+  _isExternalFunc: 1
+  _externalFunctionName: BuyOffer1
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &828629150454998452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 753.2002
+    y: 216.00006
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Summary
+    Text: Your rapport with them has increased!
+    CharacterSprite: {fileID: 0}
+  ParentNodes:
+  - {fileID: -4134853469371818415}
+  ChildNode: {fileID: -127178558412626005}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &1604470056428255785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38789157e7795244280823d019530045, type: 3}
+  m_Name: Variable Condition Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.VariableConditionNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -46.062073
+    y: 239.93347
+    width: 240
+    height: 160
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: canAfford
+  _conditionType: 0
+  _boolTargetValue: 1
+  _intTargetValue: 1
+  _floatTargetValue: 0
+  _stringTargetValue: 
+  ParentNodes:
+  - {fileID: -7999882026656447980}
+  TrueChildNode: {fileID: 6185298304053698076}
+  FalseChildNode: {fileID: -8998185190784645485}
+--- !u!114 &2513004761387773472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38789157e7795244280823d019530045, type: 3}
+  m_Name: Variable Condition Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.VariableConditionNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -2025.7987
+    y: 375.80002
+    width: 240
+    height: 160
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: yearType
+  _conditionType: 0
+  _boolTargetValue: 0
+  _intTargetValue: 1
+  _floatTargetValue: 0
+  _stringTargetValue: 
+  ParentNodes:
+  - {fileID: -735554937087413529}
+  TrueChildNode: {fileID: -6882806406159105309}
+  FalseChildNode: {fileID: -8071451905670966076}
+--- !u!114 &2962575632306342582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 296.33746
+    y: 77.53262
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Sad Father
+    Text: Your kindness is much appreciated, I hope this will lift his spirits!
+    CharacterSprite: {fileID: 21300000, guid: f74a6be94effd4442a297e74eb0b2121, type: 3}
+  ParentNodes:
+  - {fileID: -1531887873842679203}
+  ChildNode: {fileID: -4134853469371818415}
+  _isExternalFunc: 1
+  _externalFunctionName: SellPotionRequest0
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &4222808496676358380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.AnswerNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -530.8629
+    y: 220.73306
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  Answers:
+  - Sell Healing Potion
+  - Sell Energy Potion
+  - Decline
+  AnswerKeys:
+  - 
+  - 
+  - 
+  ParentNodes:
+  - {fileID: -552177151106437464}
+  ChildNodes:
+  - {fileID: -3404686045141690925}
+  - {fileID: -7999882026656447980}
+  - {fileID: 4918686521348694049}
+--- !u!114 &4582398493999775140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -1258.2686
+    y: -15.16684
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Sad Father
+    Text: Wonderful! Always good to get rid of junk laying around.
+    CharacterSprite: {fileID: 21300000, guid: f74a6be94effd4442a297e74eb0b2121, type: 3}
+  ParentNodes:
+  - {fileID: 5006191576740839021}
+  ChildNode: {fileID: 4973694331897876879}
+  _isExternalFunc: 1
+  _externalFunctionName: BuyOffer0
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &4918686521348694049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -293.2652
+    y: 437.53336
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Sad Father
+    Text: "Oh\u2026okay. I\u2019m sorry to bother you then."
+    CharacterSprite: {fileID: 21300000, guid: f74a6be94effd4442a297e74eb0b2121, type: 3}
+  ParentNodes:
+  - {fileID: 4222808496676358380}
+  ChildNode: {fileID: 7174368441448328741}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &4973694331897876879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -982.8662
+    y: 223.93326
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Sad Father
+    Text: Might I purchase a potion on behalf of my son's ailment?
+    CharacterSprite: {fileID: 21300000, guid: f74a6be94effd4442a297e74eb0b2121, type: 3}
+  ParentNodes:
+  - {fileID: 4582398493999775140}
+  - {fileID: 693979790325795756}
+  - {fileID: -7666769196491267573}
+  ChildNode: {fileID: -552177151106437464}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &5006191576740839021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.AnswerNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -1501.2671
+    y: 147.13306
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  Answers:
+  - Buy Dragon Scale
+  - Buy Eye of Newt
+  - Decline
+  AnswerKeys:
+  - 
+  - 
+  - 
+  - 
+  ParentNodes:
+  - {fileID: 7928659056014060244}
+  ChildNodes:
+  - {fileID: 4582398493999775140}
+  - {fileID: 693979790325795756}
+  - {fileID: -7666769196491267573}
+--- !u!114 &6185298304053698076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 284.33752
+    y: 275.13315
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Sad Father
+    Text: Your kindness is much appreciated, I hope this will lift his spirits!
+    CharacterSprite: {fileID: 21300000, guid: f74a6be94effd4442a297e74eb0b2121, type: 3}
+  ParentNodes:
+  - {fileID: 1604470056428255785}
+  ChildNode: {fileID: -4134853469371818415}
+  _isExternalFunc: 1
+  _externalFunctionName: SellPotionRequest1
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &7174368441448328741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4b3c64aaf434ea0df52154c1c7680, type: 3}
+  m_Name: External Function Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.ExternalFunctionNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 0.20013428
+    y: 484.0001
+    width: 190
+    height: 80
+  IsDragging: 1
+  IsSelected: 0
+  _functionName: DecreaseCurrentNPCRapport
+  _description: 
+  ParentNodes:
+  - {fileID: 4918686521348694049}
+  ChildNode: {fileID: 8552281239371999322}
+--- !u!114 &7928659056014060244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -1741.1985
+    y: 162.56656
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Sad Father
+    Text: Still have some of these left magical items over from my adventuring days,
+      anything of interest to you?
+    CharacterSprite: {fileID: 21300000, guid: f74a6be94effd4442a297e74eb0b2121, type: 3}
+  ParentNodes:
+  - {fileID: -6882806406159105309}
+  - {fileID: -8071451905670966076}
+  ChildNode: {fileID: 5006191576740839021}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &8552281239371999322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 303.20032
+    y: 541.00024
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Summary
+    Text: Your rapport with them has decreased
+    CharacterSprite: {fileID: 0}
+  ParentNodes:
+  - {fileID: 7174368441448328741}
+  ChildNode: {fileID: -127178558412626005}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 

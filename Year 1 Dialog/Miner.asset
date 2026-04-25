@@ -1,0 +1,810 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8998185190784645485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 234.7367
+    y: -107.66687
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Miner
+    Text: "Is this a joke? Are you playing with me right now? I\u2019d prefer to
+      not go bankrupt."
+    CharacterSprite: {fileID: 21300000, guid: 79d88a4dc129e0a43bf2173b43313f54, type: 3}
+  ParentNodes:
+  - {fileID: -1531887873842679203}
+  - {fileID: 1604470056428255785}
+  ChildNode: {fileID: -127178558412626005}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-7999882026656447980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -362.26486
+    y: 232.93332
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Miner
+    Text: What prices are we talking?
+    CharacterSprite: {fileID: 21300000, guid: 79d88a4dc129e0a43bf2173b43313f54, type: 3}
+  ParentNodes:
+  - {fileID: 4222808496676358380}
+  ChildNode: {fileID: 1604470056428255785}
+  _isExternalFunc: 1
+  _externalFunctionName: CheckAffordSellPotionRequest1
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-7666769196491267573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -1317.2668
+    y: 450.09952
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Miner
+    Text: "Not good enough for ya, huh? I\u2019ll be back another time with more."
+    CharacterSprite: {fileID: 21300000, guid: 79d88a4dc129e0a43bf2173b43313f54, type: 3}
+  ParentNodes:
+  - {fileID: 5006191576740839021}
+  ChildNode: {fileID: 4973694331897876879}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-7264642743418880911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 340.3999
+    y: 587.80005
+    width: 190
+    height: 135
+  IsDragging: 0
+  IsSelected: 0
+  _sentence:
+    CharacterName: Summary
+    Text: Your rapport with them has decreased
+    CharacterSprite: {fileID: 0}
+  ParentNodes:
+  - {fileID: 3073257668222082222}
+  ChildNode: {fileID: -127178558412626005}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-6652087980902689241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4b3c64aaf434ea0df52154c1c7680, type: 3}
+  m_Name: External Function Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.ExternalFunctionNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 450.40002
+    y: 234.80002
+    width: 190
+    height: 80
+  IsDragging: 1
+  IsSelected: 0
+  _functionName: IncreaseCurrentNPCRapport
+  _description: 
+  ParentNodes:
+  - {fileID: 2962575632306342582}
+  - {fileID: 6185298304053698076}
+  ChildNode: {fileID: 7455074562086109254}
+--- !u!114 &-3404686045141690925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -367.66574
+    y: 70.33295
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Miner
+    Text: What prices are we talking?
+    CharacterSprite: {fileID: 21300000, guid: 79d88a4dc129e0a43bf2173b43313f54, type: 3}
+  ParentNodes:
+  - {fileID: 4222808496676358380}
+  ChildNode: {fileID: -1531887873842679203}
+  _isExternalFunc: 1
+  _externalFunctionName: CheckAffordSellPotionRequest0
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-2815906894435404814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30402c10d300488491eb82eed1db9a20, type: 3}
+  m_Name: Modify Variable Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.ModifyVariableNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -2397.4658
+    y: 163.33319
+    width: 210
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: currentNPC
+  _modifyType: 0
+  _boolValue: 0
+  _intValue: 5
+  _floatValue: 0
+  _stringValue: 
+  ParentNodes: []
+  ChildNode: {fileID: -735554937087413529}
+--- !u!114 &-1531887873842679203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38789157e7795244280823d019530045, type: 3}
+  m_Name: Variable Condition Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.VariableConditionNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -112.86545
+    y: 21.53238
+    width: 240
+    height: 160
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: canAfford
+  _conditionType: 0
+  _boolTargetValue: 1
+  _intTargetValue: 1
+  _floatTargetValue: 0
+  _stringTargetValue: 
+  ParentNodes:
+  - {fileID: -3404686045141690925}
+  TrueChildNode: {fileID: 2962575632306342582}
+  FalseChildNode: {fileID: -8998185190784645485}
+--- !u!114 &-735554937087413529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -2075.4004
+    y: 162.09991
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Miner
+    Text: "Still perched up in your tower, huh? You may not know, but mining is hard
+      work. You\u2019ve surely got some kind of fancy energy potion, now dont\u2019cha?"
+    CharacterSprite: {fileID: 21300000, guid: 79d88a4dc129e0a43bf2173b43313f54, type: 3}
+  ParentNodes:
+  - {fileID: -2815906894435404814}
+  ChildNode: {fileID: 7928659056014060244}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-552177151106437464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4b3c64aaf434ea0df52154c1c7680, type: 3}
+  m_Name: External Function Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.ExternalFunctionNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -827.86816
+    y: 370.53345
+    width: 190
+    height: 80
+  IsDragging: 1
+  IsSelected: 0
+  _functionName: EnableSellRestrictions
+  _description: 
+  ParentNodes:
+  - {fileID: 4973694331897876879}
+  ChildNode: {fileID: 4222808496676358380}
+--- !u!114 &-127178558412626005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30402c10d300488491eb82eed1db9a20, type: 3}
+  m_Name: Modify Variable Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.ModifyVariableNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 1011.53284
+    y: 164.73312
+    width: 210
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: currentNPC
+  _modifyType: 0
+  _boolValue: 0
+  _intValue: 0
+  _floatValue: 0
+  _stringValue: 
+  ParentNodes:
+  - {fileID: -8998185190784645485}
+  - {fileID: -7264642743418880911}
+  - {fileID: 7455074562086109254}
+  ChildNode: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: Miner
+  m_EditorClassIdentifier: 
+  NodesList:
+  - {fileID: -735554937087413529}
+  - {fileID: 7928659056014060244}
+  - {fileID: 4582398493999775140}
+  - {fileID: -7666769196491267573}
+  - {fileID: -2815906894435404814}
+  - {fileID: 5006191576740839021}
+  - {fileID: 693979790325795756}
+  - {fileID: 7925212499418714653}
+  - {fileID: 4973694331897876879}
+  - {fileID: -552177151106437464}
+  - {fileID: 4222808496676358380}
+  - {fileID: -3404686045141690925}
+  - {fileID: -7999882026656447980}
+  - {fileID: -1531887873842679203}
+  - {fileID: 1604470056428255785}
+  - {fileID: -8998185190784645485}
+  - {fileID: 4918686521348694049}
+  - {fileID: 2962575632306342582}
+  - {fileID: 6185298304053698076}
+  - {fileID: -127178558412626005}
+  - {fileID: 3073257668222082222}
+  - {fileID: -6652087980902689241}
+  - {fileID: -7264642743418880911}
+  - {fileID: 7455074562086109254}
+  VariablesConfig: {fileID: 11400000, guid: 85f89c3fa9784c44a9a597597aca05dc, type: 2}
+  _localizationTableName: 
+  _characterNamesLocalizationName: 
+  NodeToDrawLineFrom: {fileID: 0}
+  LinePosition: {x: 0, y: 0}
+  IsLocalizationSetUp: 0
+--- !u!114 &693979790325795756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -1318.2666
+    y: 132.93304
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Miner
+    Text: Mmhm, told ya so.
+    CharacterSprite: {fileID: 21300000, guid: 79d88a4dc129e0a43bf2173b43313f54, type: 3}
+  ParentNodes:
+  - {fileID: 5006191576740839021}
+  ChildNode: {fileID: 4973694331897876879}
+  _isExternalFunc: 1
+  _externalFunctionName: BuyOffer1
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &1604470056428255785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38789157e7795244280823d019530045, type: 3}
+  m_Name: Variable Condition Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.VariableConditionNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -111.0632
+    y: 232.13345
+    width: 240
+    height: 160
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: canAfford
+  _conditionType: 0
+  _boolTargetValue: 1
+  _intTargetValue: 1
+  _floatTargetValue: 0
+  _stringTargetValue: 
+  ParentNodes:
+  - {fileID: -7999882026656447980}
+  TrueChildNode: {fileID: 6185298304053698076}
+  FalseChildNode: {fileID: -8998185190784645485}
+--- !u!114 &2962575632306342582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 279.93616
+    y: 85.932556
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Miner
+    Text: "Thank ya. Back to the mines I go. I\u2019m so close to the diamonds..
+      I can smell them."
+    CharacterSprite: {fileID: 21300000, guid: 79d88a4dc129e0a43bf2173b43313f54, type: 3}
+  ParentNodes:
+  - {fileID: -1531887873842679203}
+  ChildNode: {fileID: -6652087980902689241}
+  _isExternalFunc: 1
+  _externalFunctionName: SellPotionRequest0
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &3073257668222082222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4b3c64aaf434ea0df52154c1c7680, type: 3}
+  m_Name: External Function Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.ExternalFunctionNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -4.600342
+    y: 534.8002
+    width: 190
+    height: 80
+  IsDragging: 0
+  IsSelected: 0
+  _functionName: DecreaseCurrentNPCRapport
+  _description: 
+  ParentNodes:
+  - {fileID: 4918686521348694049}
+  ChildNode: {fileID: -7264642743418880911}
+--- !u!114 &4222808496676358380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.AnswerNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -598.2623
+    y: 212.13303
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  Answers:
+  - Sell Healing Potion
+  - Sell Strength Potion
+  - Decline
+  AnswerKeys:
+  - 
+  - 
+  - 
+  ParentNodes:
+  - {fileID: -552177151106437464}
+  ChildNodes:
+  - {fileID: -3404686045141690925}
+  - {fileID: -7999882026656447980}
+  - {fileID: 4918686521348694049}
+--- !u!114 &4582398493999775140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -1325.669
+    y: -24.56688
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Miner
+    Text: Mmhm, told ya so.
+    CharacterSprite: {fileID: 21300000, guid: 79d88a4dc129e0a43bf2173b43313f54, type: 3}
+  ParentNodes:
+  - {fileID: 5006191576740839021}
+  ChildNode: {fileID: 4973694331897876879}
+  _isExternalFunc: 1
+  _externalFunctionName: BuyOffer0
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &4918686521348694049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -360.66574
+    y: 427.933
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Miner
+    Text: Pffff, yeah whatever.
+    CharacterSprite: {fileID: 21300000, guid: 79d88a4dc129e0a43bf2173b43313f54, type: 3}
+  ParentNodes:
+  - {fileID: 4222808496676358380}
+  ChildNode: {fileID: 3073257668222082222}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &4973694331897876879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -1050.2668
+    y: 215.33322
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Miner
+    Text: Help me out, will ya? Sell me a healing or strength potion, so that I can
+      get straight back to the mines.
+    CharacterSprite: {fileID: 21300000, guid: 79d88a4dc129e0a43bf2173b43313f54, type: 3}
+  ParentNodes:
+  - {fileID: 4582398493999775140}
+  - {fileID: 693979790325795756}
+  - {fileID: 7925212499418714653}
+  - {fileID: -7666769196491267573}
+  ChildNode: {fileID: -552177151106437464}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &5006191576740839021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.AnswerNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -1571.8679
+    y: 135.33301
+    width: 190
+    height: 175
+  IsDragging: 1
+  IsSelected: 0
+  Answers:
+  - Buy Gold
+  - Buy Salt
+  - Buy Iron
+  - Decline
+  AnswerKeys:
+  - 
+  - 
+  - 
+  - 
+  ParentNodes:
+  - {fileID: 7928659056014060244}
+  ChildNodes:
+  - {fileID: 4582398493999775140}
+  - {fileID: 693979790325795756}
+  - {fileID: 7925212499418714653}
+  - {fileID: -7666769196491267573}
+--- !u!114 &6185298304053698076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 216.93591
+    y: 266.53305
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Miner
+    Text: "Thank ya. Back to the mines I go. I\u2019m so close to the diamonds..
+      I can smell them."
+    CharacterSprite: {fileID: 21300000, guid: 79d88a4dc129e0a43bf2173b43313f54, type: 3}
+  ParentNodes:
+  - {fileID: 1604470056428255785}
+  ChildNode: {fileID: -6652087980902689241}
+  _isExternalFunc: 1
+  _externalFunctionName: SellPotionRequest1
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &7455074562086109254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 676.4005
+    y: 198.80002
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Summary
+    Text: Your rapport with them has increased!
+    CharacterSprite: {fileID: 0}
+  ParentNodes:
+  - {fileID: -6652087980902689241}
+  ChildNode: {fileID: -127178558412626005}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &7925212499418714653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -1316.669
+    y: 291.3337
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Miner
+    Text: Mmhm, told ya so.
+    CharacterSprite: {fileID: 21300000, guid: 79d88a4dc129e0a43bf2173b43313f54, type: 3}
+  ParentNodes:
+  - {fileID: 5006191576740839021}
+  ChildNode: {fileID: 4973694331897876879}
+  _isExternalFunc: 1
+  _externalFunctionName: BuyOffer2
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &7928659056014060244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -1809.3984
+    y: 154.76654
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Miner
+    Text: Check out this gold.  I already know you want it, so how about you buy
+      something from me?
+    CharacterSprite: {fileID: 21300000, guid: 79d88a4dc129e0a43bf2173b43313f54, type: 3}
+  ParentNodes:
+  - {fileID: -735554937087413529}
+  ChildNode: {fileID: 5006191576740839021}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 

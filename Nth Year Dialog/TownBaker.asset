@@ -1,0 +1,947 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8998185190784645485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -54.062958
+    y: -193.86688
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Baker
+    Text: The price of love is immeasurable, but that is unfortunately out of my
+      price range. Maybe I am not ready for love.
+    CharacterSprite: {fileID: 21300000, guid: 8af0186a7da504a49b9b0a28098a1543, type: 3}
+  ParentNodes:
+  - {fileID: -1531887873842679203}
+  - {fileID: 1604470056428255785}
+  ChildNode: {fileID: -127178558412626005}
+  _isExternalFunc: 1
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-7999882026656447980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -339.66464
+    y: 233.33347
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Baker
+    Text: Oh, can I afford such?
+    CharacterSprite: {fileID: 21300000, guid: 8af0186a7da504a49b9b0a28098a1543, type: 3}
+  ParentNodes:
+  - {fileID: 4222808496676358380}
+  ChildNode: {fileID: 1604470056428255785}
+  _isExternalFunc: 1
+  _externalFunctionName: CheckAffordSellPotionRequest1
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-7666769196491267573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -1293.068
+    y: 449.70013
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Baker
+    Text: 'No worries, I will instead gift a fresh Focaccia to my love. Maybe then
+      I will have the confidence to ask her name. '
+    CharacterSprite: {fileID: 0}
+  ParentNodes:
+  - {fileID: 5006191576740839021}
+  ChildNode: {fileID: 4973694331897876879}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-6093239593864179732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4b3c64aaf434ea0df52154c1c7680, type: 3}
+  m_Name: External Function Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.ExternalFunctionNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -85.59952
+    y: 500.20016
+    width: 190
+    height: 80
+  IsDragging: 1
+  IsSelected: 0
+  _functionName: DecreaseCurrentNPCRapport
+  _description: 
+  ParentNodes:
+  - {fileID: 4918686521348694049}
+  ChildNode: {fileID: -434607288553430002}
+--- !u!114 &-5653059311577004201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -2289.001
+    y: 565.20044
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Baker
+    Text: My bakery is thriving! Fresher and cheaper ingredients have helped me turn
+      more of a profit. My bank balance is high, but my confidence is still low.
+    CharacterSprite: {fileID: 21300000, guid: 8af0186a7da504a49b9b0a28098a1543, type: 3}
+  ParentNodes:
+  - {fileID: 6026608875552202594}
+  ChildNode: {fileID: 7928659056014060244}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-3404686045141690925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -340.46542
+    y: 82.933014
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Baker
+    Text: Oh, can I afford such?
+    CharacterSprite: {fileID: 21300000, guid: 8af0186a7da504a49b9b0a28098a1543, type: 3}
+  ParentNodes:
+  - {fileID: 4222808496676358380}
+  ChildNode: {fileID: -1531887873842679203}
+  _isExternalFunc: 1
+  _externalFunctionName: CheckAffordSellPotionRequest1
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-2815906894435404814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30402c10d300488491eb82eed1db9a20, type: 3}
+  m_Name: Modify Variable Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.ModifyVariableNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -2373.266
+    y: 162.93326
+    width: 210
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: currentNPC
+  _modifyType: 0
+  _boolValue: 0
+  _intValue: 2
+  _floatValue: 0
+  _stringValue: 
+  ParentNodes: []
+  ChildNode: {fileID: -735554937087413529}
+--- !u!114 &-2096541256988295823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -1015.66864
+    y: 1.3331299
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: 
+    Text: Placeholder in-game transition text
+    CharacterSprite: {fileID: 0}
+  ParentNodes: []
+  ChildNode: {fileID: 0}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-1531887873842679203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38789157e7795244280823d019530045, type: 3}
+  m_Name: Variable Condition Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.VariableConditionNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -79.66452
+    y: 50.132416
+    width: 240
+    height: 160
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: canAfford
+  _conditionType: 0
+  _boolTargetValue: 1
+  _intTargetValue: 1
+  _floatTargetValue: 0
+  _stringTargetValue: 
+  ParentNodes:
+  - {fileID: -3404686045141690925}
+  TrueChildNode: {fileID: 2962575632306342582}
+  FalseChildNode: {fileID: -8998185190784645485}
+--- !u!114 &-735554937087413529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -2051.201
+    y: 161.69998
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Baker
+    Text: "Happy day! I come to you with urgency, for I have fallen in love. A beautiful
+      maiden has frequented my shop, and I must make a grand gesture. My baked goods
+      may be moist, but my dating experience is quite dry. I\u2019m looking for anything
+      that will help. "
+    CharacterSprite: {fileID: 21300000, guid: 8af0186a7da504a49b9b0a28098a1543, type: 3}
+  ParentNodes:
+  - {fileID: -2815906894435404814}
+  ChildNode: {fileID: 6026608875552202594}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-552177151106437464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4b3c64aaf434ea0df52154c1c7680, type: 3}
+  m_Name: External Function Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.ExternalFunctionNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -803.6684
+    y: 370.13373
+    width: 190
+    height: 80
+  IsDragging: 1
+  IsSelected: 0
+  _functionName: EnableSellRestrictions
+  _description: 
+  ParentNodes:
+  - {fileID: 4973694331897876879}
+  ChildNode: {fileID: 4222808496676358380}
+--- !u!114 &-434607288553430002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 254.40005
+    y: 517.2002
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Summary
+    Text: Your rapport with them has decreased
+    CharacterSprite: {fileID: 0}
+  ParentNodes:
+  - {fileID: -6093239593864179732}
+  ChildNode: {fileID: -127178558412626005}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-127178558412626005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30402c10d300488491eb82eed1db9a20, type: 3}
+  m_Name: Modify Variable Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.ModifyVariableNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 1103.7299
+    y: 184.33322
+    width: 210
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: currentNPC
+  _modifyType: 0
+  _boolValue: 0
+  _intValue: 0
+  _floatValue: 0
+  _stringValue: 
+  ParentNodes:
+  - {fileID: -8998185190784645485}
+  - {fileID: -434607288553430002}
+  - {fileID: 7688860769499781763}
+  ChildNode: {fileID: 0}
+--- !u!114 &-27989697544242154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -2006.6007
+    y: 565.20044
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Baker
+    Text: My flour has been contaminated, and my sugar deposits run low. When my
+      dear love visits, I fear I might have to turn her away.
+    CharacterSprite: {fileID: 21300000, guid: 8af0186a7da504a49b9b0a28098a1543, type: 3}
+  ParentNodes:
+  - {fileID: 6026608875552202594}
+  ChildNode: {fileID: 7928659056014060244}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: TownBaker
+  m_EditorClassIdentifier: 
+  NodesList:
+  - {fileID: -735554937087413529}
+  - {fileID: 7928659056014060244}
+  - {fileID: 4582398493999775140}
+  - {fileID: -7666769196491267573}
+  - {fileID: -2815906894435404814}
+  - {fileID: 5006191576740839021}
+  - {fileID: 693979790325795756}
+  - {fileID: 7925212499418714653}
+  - {fileID: 4973694331897876879}
+  - {fileID: -552177151106437464}
+  - {fileID: 4222808496676358380}
+  - {fileID: -2096541256988295823}
+  - {fileID: -3404686045141690925}
+  - {fileID: -7999882026656447980}
+  - {fileID: -1531887873842679203}
+  - {fileID: 1604470056428255785}
+  - {fileID: -8998185190784645485}
+  - {fileID: 4918686521348694049}
+  - {fileID: 2962575632306342582}
+  - {fileID: 6185298304053698076}
+  - {fileID: -127178558412626005}
+  - {fileID: 6026608875552202594}
+  - {fileID: -5653059311577004201}
+  - {fileID: -27989697544242154}
+  - {fileID: -6093239593864179732}
+  - {fileID: 3452885719112109853}
+  - {fileID: -434607288553430002}
+  - {fileID: 7688860769499781763}
+  VariablesConfig: {fileID: 11400000, guid: 85f89c3fa9784c44a9a597597aca05dc, type: 2}
+  _localizationTableName: 
+  _characterNamesLocalizationName: 
+  NodeToDrawLineFrom: {fileID: 0}
+  LinePosition: {x: 0, y: 0}
+  IsLocalizationSetUp: 0
+--- !u!114 &693979790325795756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -1294.068
+    y: 132.53308
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Baker
+    Text: Oh joy! Bless you a million times over. Stop by my bakery at any time -
+      Next loaf is on me!
+    CharacterSprite: {fileID: 21300000, guid: 8af0186a7da504a49b9b0a28098a1543, type: 3}
+  ParentNodes:
+  - {fileID: 5006191576740839021}
+  ChildNode: {fileID: 4973694331897876879}
+  _isExternalFunc: 1
+  _externalFunctionName: BuyOffer1
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &1604470056428255785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38789157e7795244280823d019530045, type: 3}
+  m_Name: Variable Condition Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.VariableConditionNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -90.06241
+    y: 230.13351
+    width: 240
+    height: 160
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: canAfford
+  _conditionType: 0
+  _boolTargetValue: 1
+  _intTargetValue: 1
+  _floatTargetValue: 0
+  _stringTargetValue: 
+  ParentNodes:
+  - {fileID: -7999882026656447980}
+  TrueChildNode: {fileID: 6185298304053698076}
+  FalseChildNode: {fileID: -8998185190784645485}
+--- !u!114 &2962575632306342582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 253.13638
+    y: 68.53262
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Baker
+    Text: I can feel her pulling towards me already! See you next time!
+    CharacterSprite: {fileID: 21300000, guid: 8af0186a7da504a49b9b0a28098a1543, type: 3}
+  ParentNodes:
+  - {fileID: -1531887873842679203}
+  ChildNode: {fileID: 3452885719112109853}
+  _isExternalFunc: 1
+  _externalFunctionName: SellPotionRequest0
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &3452885719112109853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f4b3c64aaf434ea0df52154c1c7680, type: 3}
+  m_Name: External Function Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.ExternalFunctionNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 483.39993
+    y: 223.20004
+    width: 190
+    height: 80
+  IsDragging: 1
+  IsSelected: 0
+  _functionName: IncreaseCurrentNPCRapport
+  _description: 
+  ParentNodes:
+  - {fileID: 2962575632306342582}
+  - {fileID: 6185298304053698076}
+  ChildNode: {fileID: 7688860769499781763}
+--- !u!114 &4222808496676358380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.AnswerNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -574.06305
+    y: 211.73312
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  Answers:
+  - Sell Love Potion
+  - Sell Luck Potion
+  - Decline
+  AnswerKeys:
+  - 
+  - 
+  - 
+  ParentNodes:
+  - {fileID: -552177151106437464}
+  ChildNodes:
+  - {fileID: -3404686045141690925}
+  - {fileID: -7999882026656447980}
+  - {fileID: 4918686521348694049}
+--- !u!114 &4582398493999775140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -1301.4703
+    y: -24.16687
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Baker
+    Text: 'Oh joy! Bless you a million times over. Stop by my bakery at any time
+      - Next loaf is on me!  '
+    CharacterSprite: {fileID: 21300000, guid: 8af0186a7da504a49b9b0a28098a1543, type: 3}
+  ParentNodes:
+  - {fileID: 5006191576740839021}
+  ChildNode: {fileID: 4973694331897876879}
+  _isExternalFunc: 1
+  _externalFunctionName: BuyOffer0
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &4918686521348694049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -336.46542
+    y: 428.5335
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Baker
+    Text: "Maybe you\u2019re right.. Love should come naturally."
+    CharacterSprite: {fileID: 21300000, guid: 8af0186a7da504a49b9b0a28098a1543, type: 3}
+  ParentNodes:
+  - {fileID: 4222808496676358380}
+  ChildNode: {fileID: -6093239593864179732}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &4973694331897876879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -1026.0671
+    y: 214.93332
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Baker
+    Text: Perhaps purchasing a love or luck potion will aid my love life. Do you
+      have any in stock?
+    CharacterSprite: {fileID: 21300000, guid: 8af0186a7da504a49b9b0a28098a1543, type: 3}
+  ParentNodes:
+  - {fileID: 4582398493999775140}
+  - {fileID: 693979790325795756}
+  - {fileID: 7925212499418714653}
+  - {fileID: -7666769196491267573}
+  ChildNode: {fileID: -552177151106437464}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &5006191576740839021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.AnswerNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -1547.6688
+    y: 139.73303
+    width: 190
+    height: 175
+  IsDragging: 1
+  IsSelected: 0
+  Answers:
+  - Buy wheat stock
+  - Buy sage stock
+  - Buy salt stock
+  - Decline
+  AnswerKeys:
+  - 
+  - 
+  - 
+  - 
+  ParentNodes:
+  - {fileID: 7928659056014060244}
+  ChildNodes:
+  - {fileID: 4582398493999775140}
+  - {fileID: 693979790325795756}
+  - {fileID: 7925212499418714653}
+  - {fileID: -7666769196491267573}
+--- !u!114 &6026608875552202594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38789157e7795244280823d019530045, type: 3}
+  m_Name: Variable Condition Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.VariableConditionNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -2165.8003
+    y: 358.00015
+    width: 240
+    height: 160
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: yearType
+  _conditionType: 0
+  _boolTargetValue: 0
+  _intTargetValue: 0
+  _floatTargetValue: 0
+  _stringTargetValue: 
+  ParentNodes:
+  - {fileID: -735554937087413529}
+  TrueChildNode: {fileID: -5653059311577004201}
+  FalseChildNode: {fileID: -27989697544242154}
+--- !u!114 &6185298304053698076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 242.13638
+    y: 266.13327
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Baker
+    Text: I can feel her pulling towards me already! See you next time!
+    CharacterSprite: {fileID: 21300000, guid: 8af0186a7da504a49b9b0a28098a1543, type: 3}
+  ParentNodes:
+  - {fileID: 1604470056428255785}
+  ChildNode: {fileID: 3452885719112109853}
+  _isExternalFunc: 1
+  _externalFunctionName: SellPotionRequest1
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &7688860769499781763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 715.79956
+    y: 212.80002
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Summary
+    Text: Your rapport with them has increased!
+    CharacterSprite: {fileID: 0}
+  ParentNodes:
+  - {fileID: 3452885719112109853}
+  ChildNode: {fileID: -127178558412626005}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &7925212499418714653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -1292.4701
+    y: 290.9338
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Baker
+    Text: Oh joy! Bless you a million times over. Stop by my bakery at any time -
+      Next loaf is on me!
+    CharacterSprite: {fileID: 21300000, guid: 8af0186a7da504a49b9b0a28098a1543, type: 3}
+  ParentNodes:
+  - {fileID: 5006191576740839021}
+  ChildNode: {fileID: 4973694331897876879}
+  _isExternalFunc: 1
+  _externalFunctionName: BuyOffer2
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &7928659056014060244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -1785.1998
+    y: 154.36664
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Baker
+    Text: Might I request a trade? In place of these fine crops and herbs, a potion
+      of love and inspiration might be able to turn my luck around.
+    CharacterSprite: {fileID: 21300000, guid: 8af0186a7da504a49b9b0a28098a1543, type: 3}
+  ParentNodes:
+  - {fileID: -27989697544242154}
+  - {fileID: -5653059311577004201}
+  ChildNode: {fileID: 5006191576740839021}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
