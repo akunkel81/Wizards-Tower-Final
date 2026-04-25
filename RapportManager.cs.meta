@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a1b6cb8a6080fd24ba66fb0d25fc6a81
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - rapportSpriteRenderer: {instanceID: 0}
+  - rapportLow: {fileID: 21300000, guid: 82907a6c21073b4479ca94545a5e831f, type: 3}
+  - rapportMedium: {fileID: 21300000, guid: beec0fe11eb03714b9c4cf9191a960bc, type: 3}
+  - rapportHigh: {fileID: 21300000, guid: fdce8b1a0d2aedf46afc8715693ca3a9, type: 3}
+  - rapportHighest: {fileID: 21300000, guid: 3765f22533eb924458acd0a6faeb0e53, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
